@@ -11,11 +11,5 @@
 # 
 #############
 def sum_two_smallest_numbers(numbers):
-    
-    lowNumOne = 0
-    lowNumTwo = 0
-    
-    for x in numbers:
-
-    
-    #your code here
+    numbers.sort()
+    return numbers[0] + numbers[1]
